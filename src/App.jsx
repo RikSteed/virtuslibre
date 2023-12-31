@@ -1,9 +1,11 @@
-import { useContext } from "react";
-import { StoreContext } from "./provider/StoreProvider";
+import Dashboard from "./components/Dashboard";
 
 const App = () => {
-  const { I18N } = useContext(StoreContext);
-  return <div>{I18N.APP.TEST}</div>;
+  return (
+    <div className="mainApp">
+      <Dashboard />
+    </div>
+  );
 };
 
 export default App;

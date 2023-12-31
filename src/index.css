@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded");
+
+html,
+body,
+#root {
+  font-family: "Poiret One", sans-serif;
+  background-color: rgb(27, 27, 27); /* DEV ONLY (FOR NOW) */
+  color: white; /* DEV ONLY (FOR NOW) */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mainApp {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  padding: 1rem;
+}
+
+.dashboardNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.dashboardIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashboardIconsItem {
+  font-size: xx-large;
+  padding: 0.2rem;
+}
+
+.buttonCircle {
+  padding: 1rem;
+  border-radius: 100%;
+  transition: ease 250ms;
+  cursor: crosshair;
+}
+.buttonCircle:active {
+  background-color: #3b3b3b;
+}
+.buttonCircle:hover {
+  background-color: #3b3b3b;
+}
